@@ -7,3 +7,6 @@
       aspect-ratio:3/2;
       position: relative;
 }
+.navbar{
+  z-index: 2;
+}

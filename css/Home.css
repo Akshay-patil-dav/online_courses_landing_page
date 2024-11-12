@@ -98,3 +98,118 @@ a{
     margin: 15px;
     color: rgb(255, 76, 44);
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .hed-con{
+        display: flex;
+        
+        /* height: 20cm; */
+    }
+    .left{
+        /* background-color: red; */
+        width: 100%;
+        height: 18cm;
+        /* background-color: #e8ccb1; */
+    }
+    
+    
+    .right{
+        /* background-color: rgb(124, 17, 17); */
+        width: 100%;
+        height: 18cm;
+        /* background-color: #e8ccb1; */
+    }
+    .right img{
+        width: 120%;
+        position: relative;
+        bottom: 80px;
+        display: none;
+    }
+    .hedtext{
+        margin: 10px;
+        position: relative;
+        top: 50px;
+    }
+    .hedtext h1{
+        font-family: Arial black;
+        font-size: 1cm;
+        /* background-color: red; */
+        width: 8cm;
+    }
+    
+    .hedtext h1 b{
+        color: rgb(255, 96, 22);
+    }
+    
+    .hedtext h6{
+        font-size: 0.4cm;
+        color: rgb(103, 103, 103);
+        width: 8cm;
+    }
+    .DemoVideos{
+        display: none;
+    }
+    .hedtext b svg{
+        color: rgb(101, 183, 242);
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    .boxtexele{
+        position: relative;
+        left: 20px;
+        display: grid;
+        grid-template-columns: auto auto ;
+        /* background-color: #2196F3; */
+        row-gap: 30px;
+        width: 98%;
+        height: auto;
+        /* column-gap: 50px; */
+        /* padding: 10px;     */
+        bottom: 180px;
+    }
+    .boxtexele .blo{
+        background-color: rgb(255, 251, 251);
+        width: 4cm;
+        height: 4cm;
+        cursor: pointer;
+    }
+    
+    .blockbol{
+        margin: 0px 20px;
+        cursor: pointer;    
+    }
+    .bloo {
+        background-color: rgb(255, 167, 167);
+        height: 1.5cm;
+        width: 1.5cm;
+        border-radius: 100px;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+    
+    .blockbol:hover {
+        .bloo{
+            background-color: rgb(255, 76, 44);
+        }
+        .bloo svg{
+            margin: 15px;
+            color: rgb(255, 255, 255);
+        }
+        cursor: pointer;
+    }
+    .blockbol b{
+        position: relative;
+        left: 15px;
+    }
+    .bloo svg{
+        margin: 15px;
+        color: rgb(255, 76, 44);
+    }
+    
+    
+}
