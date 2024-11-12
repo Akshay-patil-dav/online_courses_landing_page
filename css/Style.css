@@ -1,0 +1,9 @@
+@import url("./Buttons.css");
+@import url("./Home.css");
+
+.navbar-brand img{
+    width: 100px;
+    object-fit: contain;
+      aspect-ratio:3/2;
+      position: relative;
+}

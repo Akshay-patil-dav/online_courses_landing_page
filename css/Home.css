@@ -1,0 +1,100 @@
+.hed-con{
+    display: flex;
+    
+    /* height: 20cm; */
+}
+.left{
+    /* background-color: red; */
+    width: 100%;
+    height: 18cm;
+    /* background-color: #e8ccb1; */
+}
+
+
+.right{
+    /* background-color: rgb(124, 17, 17); */
+    width: 100%;
+    height: 18cm;
+    /* background-color: #e8ccb1; */
+}
+.right img{
+    width: 120%;
+    position: relative;
+    bottom: 80px;
+}
+.hedtext{
+    margin: 130px;
+}
+.hedtext h1{
+    font-family: Arial black;
+    font-size: 1.2cm;
+    /* background-color: red; */
+    width: 12cm;
+}
+
+.hedtext h1 b{
+    color: rgb(255, 96, 22);
+}
+
+.hedtext h6{
+    font-size: 0.5cm;
+    color: rgb(103, 103, 103);
+    width: 12cm;
+}
+
+.hedtext b svg{
+    color: rgb(101, 183, 242);
+}
+a{
+    text-decoration: none;
+}
+
+.boxtexele{
+    position: relative;
+    left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* background-color: #2196F3; */
+    row-gap: 30px;
+    height: auto;
+    /* column-gap: 50px; */
+    /* padding: 10px;     */
+}
+.boxtexele .blo{
+    background-color: rgb(255, 251, 251);
+    width: 5cm;
+    height: 4cm;
+    cursor: pointer;
+}
+
+.blockbol{
+    margin: 0px 40px;
+    cursor: pointer;    
+}
+.bloo {
+    background-color: rgb(255, 167, 167);
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.blockbol:hover {
+    .bloo{
+        background-color: rgb(255, 76, 44);
+    }
+    .bloo svg{
+        margin: 15px;
+        color: rgb(255, 255, 255);
+    }
+    cursor: pointer;
+}
+.blockbol b{
+    position: relative;
+    left: 15px;
+}
+.bloo svg{
+    margin: 15px;
+    color: rgb(255, 76, 44);
+}
