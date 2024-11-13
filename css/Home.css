@@ -21,6 +21,7 @@
     width: 120%;
     position: relative;
     bottom: 80px;
+    right: 80px;
 }
 .hedtext{
     margin: 130px;
@@ -99,6 +100,89 @@ a{
     color: rgb(255, 76, 44);
 }
 
+
+
+
+.gri{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+.gri .card{
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+    position: relative;
+    left: 20px;
+}
+.gri .card img{
+    /* width: 50px; */
+    object-fit: contain;
+      aspect-ratio:3/2;
+      position: relative;
+}
+
+.gri .card  a{
+    border: 2px solid;
+    border-color: #fd5631;
+    background-color: white;
+    color: #fd5631;
+    font-family: Arial black;
+}
+.gri .card  a:hover{
+    background-color: #fd5631;
+    color: white;
+}
+
+.offsec{
+    display: flex;
+}
+.right-sec{
+    /* background-color: red;/ */
+    width: 100%;
+}
+.left-sec{
+    /* background-color: rgb(76, 32, 32); */
+    width: 100%;
+    text-align: right;
+}
+.left-sec a{
+    color: black;
+}
+.left-sec a:hover{
+    color: #fd5631;
+}
+.texthed{
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.tex-img{
+    width: 100%;
+}
+.tex-tex{
+    width: 100%;
+}
+.tt{
+    position: relative;
+    top: 150px;
+}
+.imgtex{
+    width: 100%;
+}
+.butcon{
+    padding: 10px;
+    border-color: #fd5631;
+    color: #fd5631;
+    font-family: Arial black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.butcon:hover{
+    background-color: #fd5631;
+    color: white;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -212,4 +296,59 @@ a{
     }
     
     
+    
+.gri{
+    display: grid;
+    grid-template-columns: auto ;
+    position: relative;
+    right: 80px;
+    bottom: 150px;
+    gap: 50px;
+
+}
+.gri .card{
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+    position: relative;
+    left: 0px;
+   
+}
+.gri .card img{
+    /* width: 50px; */
+    object-fit: contain;
+      aspect-ratio:3/2;
+      position: relative;
+}
+
+.gri .card  a{
+    border: 2px solid;
+    border-color: #fd5631;
+    background-color: white;
+    color: #fd5631;
+    font-family: Arial black;
+}
+.gri .card  a:hover{
+    background-color: #fd5631;
+    color: white;
+}
+.cou{
+    position: relative;
+    left: 40px;
+    width: 1px;
+    top: 10px;
+}
+.texthed{
+    display: unset;
+}
+.tt{
+    margin: 50px;
+    
+}
+.tex-tex{
+    position: relative;
+    bottom: 200px;
+}
+.offsec{
+  width: 80%;
+}
 }
