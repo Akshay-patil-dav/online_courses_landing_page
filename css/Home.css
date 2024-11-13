@@ -1,9 +1,10 @@
-.hed-con{
+.hed-con {
     display: flex;
-    
+
     /* height: 20cm; */
 }
-.left{
+
+.left {
     /* background-color: red; */
     width: 100%;
     height: 18cm;
@@ -11,46 +12,50 @@
 }
 
 
-.right{
+.right {
     /* background-color: rgb(124, 17, 17); */
     width: 100%;
     height: 18cm;
     /* background-color: #e8ccb1; */
 }
-.right img{
+
+.right img {
     width: 120%;
     position: relative;
     bottom: 80px;
     right: 80px;
 }
-.hedtext{
+
+.hedtext {
     margin: 130px;
 }
-.hedtext h1{
+
+.hedtext h1 {
     font-family: Arial black;
     font-size: 1.2cm;
     /* background-color: red; */
     width: 12cm;
 }
 
-.hedtext h1 b{
+.hedtext h1 b {
     color: rgb(255, 96, 22);
 }
 
-.hedtext h6{
+.hedtext h6 {
     font-size: 0.5cm;
     color: rgb(103, 103, 103);
     width: 12cm;
 }
 
-.hedtext b svg{
+.hedtext b svg {
     color: rgb(101, 183, 242);
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-.boxtexele{
+.boxtexele {
     position: relative;
     left: 20px;
     display: grid;
@@ -61,17 +66,19 @@ a{
     /* column-gap: 50px; */
     /* padding: 10px;     */
 }
-.boxtexele .blo{
+
+.boxtexele .blo {
     background-color: rgb(255, 251, 251);
     width: 5cm;
     height: 4cm;
     cursor: pointer;
 }
 
-.blockbol{
+.blockbol {
     margin: 0px 40px;
-    cursor: pointer;    
+    cursor: pointer;
 }
+
 .bloo {
     background-color: rgb(255, 167, 167);
     height: 1.5cm;
@@ -82,20 +89,24 @@ a{
 }
 
 .blockbol:hover {
-    .bloo{
+    .bloo {
         background-color: rgb(255, 76, 44);
     }
-    .bloo svg{
+
+    .bloo svg {
         margin: 15px;
         color: rgb(255, 255, 255);
     }
+
     cursor: pointer;
 }
-.blockbol b{
+
+.blockbol b {
     position: relative;
     left: 15px;
 }
-.bloo svg{
+
+.bloo svg {
     margin: 15px;
     color: rgb(255, 76, 44);
 }
@@ -103,74 +114,86 @@ a{
 
 
 
-.gri{
+.gri {
     display: grid;
     grid-template-columns: auto auto auto auto;
 
 }
-.gri .card{
+
+.gri .card {
     background-color: rgb(255, 255, 255);
     border: 0px solid;
     position: relative;
     left: 20px;
 }
-.gri .card img{
+
+.gri .card img {
     /* width: 50px; */
     object-fit: contain;
-      aspect-ratio:3/2;
-      position: relative;
+    aspect-ratio: 3/2;
+    position: relative;
 }
 
-.gri .card  a{
+.gri .card a {
     border: 2px solid;
     border-color: #fd5631;
     background-color: white;
     color: #fd5631;
     font-family: Arial black;
 }
-.gri .card  a:hover{
+
+.gri .card a:hover {
     background-color: #fd5631;
     color: white;
 }
 
-.offsec{
+.offsec {
     display: flex;
 }
-.right-sec{
+
+.right-sec {
     /* background-color: red;/ */
     width: 100%;
 }
-.left-sec{
+
+.left-sec {
     /* background-color: rgb(76, 32, 32); */
     width: 100%;
     text-align: right;
 }
-.left-sec a{
+
+.left-sec a {
     color: black;
 }
-.left-sec a:hover{
+
+.left-sec a:hover {
     color: #fd5631;
 }
-.texthed{
+
+.texthed {
     display: flex;
     position: relative;
     top: 150px;
 }
 
-.tex-img{
+.tex-img {
     width: 100%;
 }
-.tex-tex{
+
+.tex-tex {
     width: 100%;
 }
-.tt{
+
+.tt {
     position: relative;
     top: 150px;
 }
-.imgtex{
+
+.imgtex {
     width: 100%;
 }
-.butcon{
+
+.butcon {
     padding: 10px;
     border-color: #fd5631;
     color: #fd5631;
@@ -179,75 +202,161 @@ a{
     border: 1px solid;
     border-radius: 20px;
 }
-.butcon:hover{
+
+.butcon:hover {
     background-color: #fd5631;
     color: white;
 }
 
+.imgtem {
+    display: flex;
+    gap: 40px;
+    width: 50%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+}
+
+.left-im {
+    /* background-color: red; */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.center-im {
+    /* background-color: rgb(139, 29, 29); */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rig-im {
+    /* background-color: rgb(46, 9, 9); */
+    width: 100%;
+    height: 5cm;
+
+}
+
+.texboxinfo {
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.4px);
+    -webkit-backdrop-filter: blur(15.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    width: 15cm;
+    height: 10cm;
+    margin: 30px;
+    position: relative;
+    right: 140px;
+    border-radius: 20px;
+}
+
+.imghh {
+
+    display: flex;
+    gap: 50px;
+    height: 12cm;
+}
+
+.texboxinfo-hed {
+    /* background-color: red; */
+    width: 70%;
+}
+
+.texboxinfo-box {
+    margin: 40px;
+}
+
+.bote-1 {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 2cm; */
+}
+
+.bote-2 {
+    /* background-color: rgb(68, 12, 12); */
+    width: 100%;
+    /* height: 2cm; */
+    text-align: right;
+}
+
+.sta svg {
+    color: rgb(255, 204, 0);
+}
 
 @media only screen and (max-width: 600px) {
 
-    .hed-con{
+    .hed-con {
         display: flex;
-        
+
         /* height: 20cm; */
     }
-    .left{
+
+    .left {
         /* background-color: red; */
         width: 100%;
         height: 18cm;
         /* background-color: #e8ccb1; */
     }
-    
-    
-    .right{
+
+
+    .right {
         /* background-color: rgb(124, 17, 17); */
         width: 100%;
         height: 18cm;
         /* background-color: #e8ccb1; */
     }
-    .right img{
+
+    .right img {
         width: 120%;
         position: relative;
         bottom: 80px;
         display: none;
     }
-    .hedtext{
+
+    .hedtext {
         margin: 10px;
         position: relative;
         top: 50px;
     }
-    .hedtext h1{
+
+    .hedtext h1 {
         font-family: Arial black;
         font-size: 1cm;
         /* background-color: red; */
         width: 8cm;
     }
-    
-    .hedtext h1 b{
+
+    .hedtext h1 b {
         color: rgb(255, 96, 22);
     }
-    
-    .hedtext h6{
+
+    .hedtext h6 {
         font-size: 0.4cm;
         color: rgb(103, 103, 103);
         width: 8cm;
     }
-    .DemoVideos{
+
+    .DemoVideos {
         display: none;
     }
-    .hedtext b svg{
+
+    .hedtext b svg {
         color: rgb(101, 183, 242);
     }
-    a{
+
+    a {
         text-decoration: none;
     }
-    
-    .boxtexele{
+
+    .boxtexele {
         position: relative;
         left: 20px;
         display: grid;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         /* background-color: #2196F3; */
         row-gap: 30px;
         width: 98%;
@@ -256,17 +365,19 @@ a{
         /* padding: 10px;     */
         bottom: 180px;
     }
-    .boxtexele .blo{
+
+    .boxtexele .blo {
         background-color: rgb(255, 251, 251);
         width: 4cm;
         height: 4cm;
         cursor: pointer;
     }
-    
-    .blockbol{
+
+    .blockbol {
         margin: 0px 20px;
-        cursor: pointer;    
+        cursor: pointer;
     }
+
     .bloo {
         background-color: rgb(255, 167, 167);
         height: 1.5cm;
@@ -275,80 +386,186 @@ a{
         margin: 0px 10px;
         cursor: pointer;
     }
-    
+
     .blockbol:hover {
-        .bloo{
+        .bloo {
             background-color: rgb(255, 76, 44);
         }
-        .bloo svg{
+
+        .bloo svg {
             margin: 15px;
             color: rgb(255, 255, 255);
         }
+
         cursor: pointer;
     }
-    .blockbol b{
+
+    .blockbol b {
         position: relative;
         left: 15px;
     }
-    .bloo svg{
+
+    .bloo svg {
         margin: 15px;
         color: rgb(255, 76, 44);
     }
-    
-    
-    
-.gri{
-    display: grid;
-    grid-template-columns: auto ;
-    position: relative;
-    right: 80px;
-    bottom: 150px;
-    gap: 50px;
 
-}
-.gri .card{
-    background-color: rgb(255, 255, 255);
-    border: 0px solid;
-    position: relative;
-    left: 0px;
-   
-}
-.gri .card img{
-    /* width: 50px; */
+
+
+    .gri {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        right: 80px;
+        bottom: 150px;
+        gap: 50px;
+
+    }
+
+    .gri .card {
+        background-color: rgb(255, 255, 255);
+        border: 0px solid;
+        position: relative;
+        left: 0px;
+
+    }
+
+    .gri .card img {
+        /* width: 50px; */
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        position: relative;
+    }
+
+    .gri .card a {
+        border: 2px solid;
+        border-color: #fd5631;
+        background-color: white;
+        color: #fd5631;
+        font-family: Arial black;
+    }
+
+    .gri .card a:hover {
+        background-color: #fd5631;
+        color: white;
+    }
+
+    .cou {
+        position: relative;
+        left: 40px;
+        width: 1px;
+        top: 10px;
+    }
+
+    .texthed {
+        display: unset;
+    }
+
+    .tt {
+        margin: 50px;
+
+    }
+
+    .tex-tex {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .offsec {
+        width: 80%;
+    }
+
+
+    /* **************** */
+.imgtem{
+    display: block;
+    /* gap: 80px; */
+    width: 50%;
     object-fit: contain;
-      aspect-ratio:3/2;
-      position: relative;
+    aspect-ratio:3/2;
+    position: relative;
+}
+.left-im{
+    /* background-color: red; */
+    width: 80%;
+    border-radius: 20px;
 }
 
-.gri .card  a{
-    border: 2px solid;
-    border-color: #fd5631;
-    background-color: white;
-    color: #fd5631;
+.center-im{
+    position: relative;
+    top: 5px;
+    /* background-color: rgb(139, 29, 29); */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rig-im{
+    /* background-color: rgb(46, 9, 9); */
+    width: 100%;
+    height: 5cm;
+}
+
+.texboxinfo{
+
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.16);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.4px);
+-webkit-backdrop-filter: blur(15.4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+    width: 9cm;
+    height: 7cm;
+    margin: 30px;
+    position: relative;
+    right: 0px;
+    border-radius: 20px;
+}
+
+.agents{
+    text-align: center;
     font-family: Arial black;
 }
-.gri .card  a:hover{
-    background-color: #fd5631;
-    color: white;
+.imghh {
+ 
+    display: flex;
+    gap: 50px;
+    height: 12cm;
 }
-.cou{
+.texboxinfo-hed{
+    /* background-color: red; */
+    width: 70%;
+    font-size: 20px;
+}
+
+.texboxinfo-box{
+    margin: 10px;
+}
+
+.texboxinfo-box p{
+    font-size: 10px;
+}
+
+.bote-1{
+    /* background-color: red; */
+    width: 100%;
+    /* height: 2cm; */
+}
+
+.bote-2{
+    /* background-color: rgb(68, 12, 12); */
+    width: 100%;
+    /* height: 2cm; */
+    text-align:right;
+}
+
+.sta svg{
+    color: rgb(255, 204, 0);
+}
+
+.box-age{
     position: relative;
-    left: 40px;
-    width: 1px;
-    top: 10px;
+    bottom: 70px;
 }
-.texthed{
-    display: unset;
-}
-.tt{
-    margin: 50px;
-    
-}
-.tex-tex{
-    position: relative;
-    bottom: 200px;
-}
-.offsec{
-  width: 80%;
-}
+
 }
