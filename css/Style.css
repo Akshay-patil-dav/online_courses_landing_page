@@ -1,6 +1,17 @@
 @import url("./Buttons.css");
 @import url("./Home.css");
+@import url("./footer.css");
 
+
+.collapse{
+  background-color: rgb(255, 255, 255);
+}
+.navbar{
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  /* height: 1.8cm; */
+}
 .navbar-brand img{
     width: 100px;
     object-fit: contain;

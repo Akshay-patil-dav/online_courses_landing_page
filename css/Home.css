@@ -289,6 +289,7 @@ a {
 
 @media only screen and (max-width: 600px) {
 
+ 
     .hed-con {
         display: flex;
 
@@ -301,11 +302,18 @@ a {
         height: 18cm;
         /* background-color: #e8ccb1; */
     }
-
+    
+.gri .card img {
+    /* width: 50px; */
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+}
 
     .right {
         /* background-color: rgb(124, 17, 17); */
         width: 100%;
+        display: none;
         height: 18cm;
         /* background-color: #e8ccb1; */
     }
@@ -351,10 +359,13 @@ a {
     a {
         text-decoration: none;
     }
+    .imgtex {
+        width: 80%;
+    }
 
     .boxtexele {
         position: relative;
-        left: 20px;
+        left: 5px;
         display: grid;
         grid-template-columns: auto auto;
         /* background-color: #2196F3; */
@@ -450,9 +461,13 @@ a {
         color: white;
     }
 
+    .hsh{
+        position: relative;
+        right: 100px;
+    }
     .cou {
         position: relative;
-        left: 40px;
+        left: 20px;
         width: 1px;
         top: 10px;
     }
@@ -506,26 +521,19 @@ a {
 }
 
 .texboxinfo{
-
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.16);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(15.4px);
--webkit-backdrop-filter: blur(15.4px);
-border: 1px solid rgba(255, 255, 255, 0.3);
-    width: 7cm;
+    width: 6cm;
     height: 6.5cm;
     margin: 30px;
     position: relative;
     right: 0px;
     border-radius: 20px;
     bottom:350px;
-    left: 100px;
+    left: 80px;
 }
 
 .agents{
     text-align: center;
+    width: 100%;
     font-family: Arial black;
 }
 .imghh {
@@ -572,6 +580,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 .sta p{
     position: relative;
     right: 60px;
+    display: none;
 }
 
 
@@ -584,4 +593,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     bottom: 70px;
 }
 
+
+footer{
+    margin: -300px 0px;
+}
 }
