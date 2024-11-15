@@ -3,8 +3,9 @@
 @import url("./footer.css");
 @import url("./Cource.css");
 
-.collapse{
-  background-color: rgb(255, 255, 255);
+
+.navbar-toggler-but{
+  display: none;
 }
 .navbar{
   position: fixed;
@@ -20,4 +21,16 @@
 }
 .navbar{
   z-index: 2;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar{
+    position: fixed;
+    /* width: 100%; */
+    background-color: rgb(255, 255, 255);
+    /* height: 1.8cm; */
+    height: 2cm;
+  }
+
 }

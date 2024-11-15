@@ -289,6 +289,38 @@ a {
 
 @media only screen and (max-width: 600px) {
 
+    .navbar-toggler-but{
+        position: absolute;
+        left: 30px;
+        top: 14px;
+        border: 0px solid;
+        color: rgb(18, 33, 83);
+        background-color: transparent;
+      }
+      .navbar-toggler:hover{
+        border: 0px solid;
+      }
+      .navbar-brand{
+        position: absolute;
+        top: 0px;
+        right: 200px;
+        width: 10px;
+      }
+      #collapse{
+        /* background-color: red; */
+        /* margin: 70px 0px; */
+        display: block;
+        background-color: rgb(255, 255, 255);
+        height: 25cm;
+        width: 100%;
+        z-index: 3;
+      }
+   
+      .navbar-nav{
+        margin: 80px 50px;
+      }
+   
+
  
     .hed-con {
         display: flex;
@@ -365,7 +397,7 @@ a {
 
     .boxtexele {
         position: relative;
-        left: 5px;
+        /* left: 0px; */
         display: grid;
         grid-template-columns: auto auto;
         /* background-color: #2196F3; */
@@ -467,7 +499,7 @@ a {
     }
     .cou {
         position: relative;
-        left: 20px;
+        left: 50px;
         width: 1px;
         top: 10px;
     }
