@@ -13,16 +13,19 @@
 
 <body>
     <!-- ****************************Nav_bar******************************************* -->
+    <div id="body"></div>
+    <!-- ****************************Nav_bar******************************************* -->
     <nav class="navbar navbar-expand-lg ">
         <div class="container container-fluid">
             <a class="navbar-brand me-5 " href="#"><img src="./img/Screenshot 2024-11-12 072156.png" class="me-5"
                     alt=""></a>
-            <button class="navbar-toggler" id="bu" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler-but" id="bu" onclick="cli()" type="button">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H14M4 18H9" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse  " id="collapse">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item me-3">
                         <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
@@ -39,51 +42,106 @@
                     <li class="nav-item">
                         <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                     </li>
+
+
                 </ul>
-                <div class="d-flex" role="search">
+                <div class="d-flex fx" role="search">
                     <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <button class="btn but-tex me-2" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="20"
-                            height="20" fill="currentColor" class="bi bi-person me-2" viewBox="0 0 16 16">
-                            <path
-                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
-                        </svg>Sign In</button>
-                    <button class="btn but-col" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                            height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+                    <button class="btn but-tex me-5 sing" type="submit"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
                             <path
                                 d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
                         </svg> &#160 Add Cources</button>
                 </div>
+
+
+                <button class="navbar-toggler-but" id="no" onclick="no()" type="button">
+                    <svg width="25" height="25" viewBox="0 -0.5 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+
+                        <title>close [#1511]</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs>
+
+                        </defs>
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Dribbble-Light-Preview" transform="translate(-419.000000, -240.000000)"
+                                fill="#000000">
+                                <g id="icons" transform="translate(56.000000, 160.000000)">
+                                    <polygon id="close-[#1511]"
+                                        points="375.0183 90 384 98.554 382.48065 100 373.5 91.446 364.5183 100 363 98.554 371.98065 90 363 81.446 364.5183 80 373.5 88.554 382.48065 80 384 81.446">
+
+                                    </polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </button>
+
             </div>
+            <button class="btn but-col addcource" type="submit">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-person me-2" viewBox="0 0 16 16">
+                    <path
+                        d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z" />
+                </svg>Sign In
+            </button>
         </div>
     </nav>
-    
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
     <br><br><br>
+
+
+    <script>
+
+        function no() {
+            document.getElementById('collapse').style.display = 'none'
+            document.getElementById('body').style.display = "none"
+
+        }
+
+        function cli() {
+            document.getElementById('collapse').style.display = 'block'
+            document.getElementById('body').style.display = "block"
+
+        }
+
+
+
+    </script>
+
+
+    <!-- ****************************Nav_bar_END******************************************* -->
+
+    <!-- <br><br><br> -->
     <nav class="nav ">
         <div class="container">
 
-            <div class="for">
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Search by Course Name">
-                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Course Types">
-                <select class="form-select" aria-label="Default select example">
-                    <option selected>Select Course Type</option>
-                    <!-- <option value="1">All</option> -->
-                    <option value="2">online</option>
-                    <option value="3">offline</option>
-                </select>
+            <form class="for" id="filterForm">
 
-                <div class="prs">
+        
+        <input type="text" class="form-control" id="searchInput" placeholder="Search by Course Name">
 
-                    <label for="priceRange">Price Range :</label>
-                    <input type="range" id="priceRange" min="0" max="1000" step="50" value="1000">
-                    <span id="priceRangeDisplay">1000</span>
-                </div>
-                <button type="button" class="btn btn-success">Filter</button>
-            </div>
+       
+        <input type="text" class="form-control" id="courseType" placeholder="Course Types">
+
+       
+        <select  class="form-select" id="location">
+            <option value="">All</option>
+            <option value="Online">Online</option>
+            <option value="New York">New York</option>
+            <option value="San Francisco">San Francisco</option>
+        </select>
+
+        <div class="prs">
+        <label for="priceRange">Price Range :</label>
+        <input type="range" id="priceRange" min="0" max="1000" step="50" value="1000">
+        <span id="priceRangeDisplay">1000</span>
+</div>
+        <button type="button" class="btn btn-success" onclick="filterCourses()">Filter</button>
+            </form>
+
         </div>
     </nav>
     <!-- ****************************Nav_bar_END******************************************* -->
@@ -97,14 +155,14 @@
         <div class="leftblo container">
 
             <!-- <h3>Available Courses</h3> -->
-             <br>
-            <div id="courseList"  class="card-container">
+            <br>
+            <div id="courseList" class="card-container">
 
             </div>
 
             <div class="pagination">
                 <button onclick="prevPage()" id="prevBtn" class="me-5" disabled>Previous</button>
-                
+
                 <button onclick="nextPage()" id="nextBtn" disabled>Next</button>
             </div>
 
@@ -188,7 +246,7 @@
                     <p class="card-text"> Lecture 1 | Complete Placement Course
                         .</p>
                     <hr>
-                    <b>Offer :</b> 30% &#160 <a href="#" class="btn btn-primary">View Courses</a>
+                    <b>$</b>${course.price} &#160 <b class="me-3">${course.location}</b> <a href="#" class="btn btn-primary">View Courses</a>
                 </div>
             </div>
                 `;

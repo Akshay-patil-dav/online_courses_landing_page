@@ -9,13 +9,13 @@
     {
         "name": "Advanced CSS",
         "type": "Design",
-        "location": "New York",
+        "location": "Offline",
         "price": 300
     },
     {
         "name": "Digital Marketing 101",
         "type": "Marketing",
-        "location": "San Francisco",
+        "location": "Offline",
         "price": 150
     },
     {
