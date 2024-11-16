@@ -308,15 +308,53 @@ a {
       }
 
   
+      #bu{
+        /* z-index: 5; */
+      }
+    
+      #body{
+        background-color: gray;
+        opacity: 0.5;
+        width: 100%;
+        position: fixed;
+        height: 100cm;
+        z-index: 2;
+        display: none;
+      }
+
+      #no{
+        margin: 10px 275px;
+      }
       #collapse{
         /* background-color: red; */
-        /* margin: 70px 0px; */
+        /* margin: 0px 0px; */
         display: none;
         background-color: rgb(255, 255, 255);
+
+            position: relative;
+            right: 150px;
+            bottom: 10px;
         height: 25cm;
-        width: 100%;
-        z-index: 3;
+        /* width: 100%; */
+        /* padding: 5px; */
+        z-index: 4;
+        animation: 3s slide-right;
       }
+      
+      @keyframes slide-right {
+        from {
+          margin-left: -80%;
+          /* background-color: rgb(255, 255, 255); */
+        }
+        to {
+          margin-left: 0%;
+          /* background-color: rgb(255, 255, 255); */
+        }
+      }
+      
+
+  
+    
       .addcource{
         font-size: 0.3cm;
         position: relative;
@@ -325,7 +363,7 @@ a {
 
 
       .navbar-nav{
-        margin: 80px 50px;
+        margin: 100px 180px;
       }
    
 
@@ -640,6 +678,6 @@ footer{
 }
 
 .sing{
-    margin: 0px 30px;
+    margin: 0px 150px;
 }
 }
