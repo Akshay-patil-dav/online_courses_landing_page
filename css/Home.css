@@ -306,21 +306,30 @@ a {
         right: 200px;
         width: 10px;
       }
+
+  
       #collapse{
         /* background-color: red; */
         /* margin: 70px 0px; */
-        display: block;
+        display: none;
         background-color: rgb(255, 255, 255);
         height: 25cm;
         width: 100%;
         z-index: 3;
       }
-   
+      .addcource{
+        font-size: 0.3cm;
+        position: relative;
+        left: 295px;
+      }
+
+
       .navbar-nav{
         margin: 80px 50px;
       }
    
 
+ 
  
     .hed-con {
         display: flex;
@@ -628,5 +637,9 @@ a {
 
 footer{
     margin: -300px 0px;
+}
+
+.sing{
+    margin: 0px 30px;
 }
 }
