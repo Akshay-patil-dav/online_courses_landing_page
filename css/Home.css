@@ -329,30 +329,29 @@ a {
         /* background-color: red; */
         /* margin: 0px 0px; */
         display: none;
+   
         background-color: rgb(255, 255, 255);
-
             position: relative;
             right: 150px;
             bottom: 10px;
         height: 25cm;
-        /* width: 100%; */
+        width: 80%;
         /* padding: 5px; */
-        z-index: 4;
-        animation: 3s slide-right;
+        animation-duration: 3s;
+        animation-name: slide-in;
       }
       
-      @keyframes slide-right {
+      @keyframes slide-in {
         from {
-          margin-left: -80%;
-          /* background-color: rgb(255, 255, 255); */
+          translate: -150vw 0;
+          scale: 200% 1;
         }
+      
         to {
-          margin-left: 0%;
-          /* background-color: rgb(255, 255, 255); */
+          translate: 0vw 0;
+          scale: 100% 1;
         }
       }
-      
-
   
     
       .addcource{
