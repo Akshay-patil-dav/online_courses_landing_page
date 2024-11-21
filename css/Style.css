@@ -27,6 +27,38 @@
   display: none;
 }
 
+
+.d1{
+  width: 7cm;
+}
+
+.d1 li{
+  margin: 10px;
+}
+.d1 li b{
+  font-family: Arial black;
+  color: rgb(100, 100, 100);
+  margin: 10px;
+}
+
+.d1 hr{
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+}
+
+
+.subm1{
+  margin: -115px 240px;
+}
+
+.subm2{
+    margin: -155px 240px;
+}
+
+.bb2{
+  border-radius: 10px;
+}
+
 @media only screen and (max-width: 600px) {
 
   .navbar{

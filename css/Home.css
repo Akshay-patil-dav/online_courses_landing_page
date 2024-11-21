@@ -683,6 +683,6 @@ footer{
     height: 2cm;
     position: relative;
     bottom: 330px;
-    border-radius:  0px 20px 0px 0px;
+    border-radius:  0px 0px 0px 50px;
 }
 }
