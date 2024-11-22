@@ -26,7 +26,15 @@
 .hrmen{
   display: none;
 }
+/* *********************** */
 
+.addCources{
+  margin: 37px 0px;
+}
+
+.s1{
+  margin: -40px 0px;
+}
 
 .d1{
   width: 7cm;
