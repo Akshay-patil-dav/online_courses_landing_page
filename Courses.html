@@ -15,7 +15,7 @@
     <!-- ****************************Nav_bar******************************************* -->
     <div id="body"></div>
     <!-- ****************************Nav_bar******************************************* -->
-     <nav class="navbar navbar-expand-lg ">
+    <nav class="navbar navbar-expand-lg ">
         <div class="container container-fluid">
             <a class="navbar-brand me-5 " href="#"><img src="./img/Screenshot 2024-11-12 072156.png" class="me-5"
                     alt=""></a>
@@ -111,26 +111,26 @@
 
             <form class="for" id="filterForm">
 
-        
-        <input type="text" class="form-control" id="searchInput" placeholder="Search by Course Name">
 
-       
-        <input type="text" class="form-control" id="courseType" placeholder="Course Types">
+                <input type="text" class="form-control" id="searchInput" placeholder="Search by Course Name">
 
-       
-        <select  class="form-select" id="location">
-            <option value="">All</option>
-            <option value="Online">Online</option>
-            <option value="New York">New York</option>
-            <option value="San Francisco">San Francisco</option>
-        </select>
 
-        <div class="prs">
-        <label for="priceRange">Price Range :</label>
-        <input type="range" id="priceRange" min="0" max="1000" step="50" value="1000">
-        <span id="priceRangeDisplay">1000</span>
-</div>
-        <button type="button" class="btn btn-success" onclick="filterCourses()">Filter</button>
+                <input type="text" class="form-control" id="courseType" placeholder="Course Types">
+
+
+                <select class="form-select" id="location">
+                    <option value="">All</option>
+                    <option value="Online">Online</option>
+                    <option value="New York">New York</option>
+                    <option value="San Francisco">San Francisco</option>
+                </select>
+
+                <div class="prs">
+                    <label for="priceRange">Price Range :</label>
+                    <input type="range" id="priceRange" min="0" max="1000" step="50" value="1000">
+                    <span id="priceRangeDisplay">1000</span>
+                </div>
+                <button type="button" class="btn btn-success" onclick="filterCourses()">Filter</button>
             </form>
 
         </div>
@@ -139,26 +139,30 @@
     <br><br><br> <br><br><br>
     <!-- ******************************************Blockes_********************************************** -->
     <div class="filterbut">
-        <button id="filterbut" onclick="filterbut()"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
-            <path d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5z"/>
-          </svg> Filter</button>
+        <button id="filterbut" onclick="filterbut()"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15"
+                fill="currentColor" class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                <path
+                    d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5z" />
+            </svg> Filter</button>
     </div>
 
     <div class="filterbut">
         <button id="close" onclick="cls()">
-            Close  <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-x-square-fill" viewBox="0 0 16 16">
-                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708"/>
-              </svg></button>
+            Close <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+                class="bi bi-x-square-fill" viewBox="0 0 16 16">
+                <path
+                    d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm3.354 4.646L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708" />
+            </svg></button>
     </div>
     <script>
-        function filterbut(){
+        function filterbut() {
             document.getElementById('nav').style.display = 'block';
             document.getElementById('filterbut').style.display = 'none';
             document.getElementById('close').style.display = 'block';
         }
 
-        function cls(){
-            document.getElementById('nav').style.display ='none';
+        function cls() {
+            document.getElementById('nav').style.display = 'none';
             document.getElementById('filterbut').style.display = 'block';
             document.getElementById('close').style.display = 'none';
         }
@@ -182,7 +186,7 @@
 
 
         </div>
-        
+
     </div>
     <!-- ******************************************Blockes_End********************************************** -->
 
