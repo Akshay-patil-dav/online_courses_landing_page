@@ -68,14 +68,22 @@
 
 /* **************************************** */
 
+.fade  ul{
+
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+}
+
 .subm li {
     display: flex;
     /* margin: 10px 0px; */
-    width: 350px;
+    /* width: 500%; */
     /* background-color: red; */
     position: relative;
     top: 10px;
     height: 55px;
+    
 
 }
 
