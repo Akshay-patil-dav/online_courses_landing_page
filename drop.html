@@ -1,75 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dropdown Menu</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle on Hover</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <div class="dropdown">
-    <button class="dropdown-button">Menu</button>
-    <div class="dropdown-content">
-      <a href="#dashboard">Dashboard</a>
-      <a href="#users">Users</a>
-      <a href="#settings">Settings</a>
-      <a href="#logout">Logout</a>
+    <div class="toggle-container">
+        <button class="toggle-button">Hover over me</button>
+        <div class="toggle-menu">
+            <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
-</body>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+    // Toggle visibility on hover
+    $('.toggle-button').hover(
+        function () {
+            // Show the menu
+            $('.toggle-menu').stop(true, true).slideToggle(300);
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // Optional: ensure the menu toggles back when hovering out
+    $('.toggle-menu').hover(
+        function () {
+            $(this).stop(true, true).slideDown(300);
+        },
+        function () {
+            $(this).stop(true, true).slideUp(300);
+        }
+    );
+});
+
+    </script>
+    <script src="script.js"></script>
+</body>
 </html>
 <style>
-  /* General Reset */
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-  /* Dropdown Styles */
-  .dropdown {
+
+.toggle-container {
     position: relative;
-    display: inline-block;
-  }
+}
 
-  .dropdown-button {
+.toggle-button {
+    padding: 10px 20px;
+    font-size: 16px;
     background-color: #333;
     color: white;
-    padding: 10px 20px;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
-    font-size: 16px;
-  }
+    transition: background-color 0.3s;
+}
 
-  .dropdown-button:hover {
-    background-color: #444;
-  }
+.toggle-button:hover {
+    background-color: #575757;
+}
 
-  .dropdown-content {
+.toggle-menu {
     display: none;
     position: absolute;
+    top: 100%;
+    left: 0;
     background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+    border-radius: 4px;
+    z-index: 1000;
+}
 
-  .dropdown-content a {
-    color: black;
+.toggle-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toggle-menu ul li {
+    padding: 8px 20px;
+}
+
+.toggle-menu ul li a {
     text-decoration: none;
-    display: block;
-    padding: 10px 20px;
-  }
+    color: #333;
+    transition: color 0.3s;
+}
 
-  .dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
+.toggle-menu ul li a:hover {
+    color: #575757;
+}
 
-  /* Show Dropdown on Hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
 </style>
