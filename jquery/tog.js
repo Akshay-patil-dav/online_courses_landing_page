@@ -4,39 +4,77 @@ $(document).ready(function () {
     });
 });
 
+function loop(insert) {
+
+    for (i = insert; i <= 10; i++) {
+        $('.men-tog' + i).hide()
+    }
+}
+
 $(document).ready(function () {
     // Toggle visibility on hover
     $('.toggle-button').hover(
         function () {
             // Show the menu
-            $('.men-tog').stop(true, true).toggle();
-            $('.men-tog1').hide()
+            $('.men-tog').show();
+            // ************************
+            loop(1)
+           
         },
         function () {
             // Optionally: do nothing here if you want the toggle to persist
         }
     );
 
-    // Optional: ensure the menu toggles back when hovering out
- 
+
+        // Toggle visibility on hover
+        $('.toggle-button').hover(
+            function () {
+
+        //  num = 10;
+            for(i=1; i<=10 ; i++){
+                loop_loop(i,10);
+            }
+               
+            },
+            function () {
+                // Optionally: do nothing here if you want the toggle to persist
+            }
+        );
+
+
+
+    // ******************
 });
 
 
+function loop_loop(insert, target) {
 
-$(document).ready(function () {
-    // Toggle visibility on hover
-    $('.toggle-button1').hover(
-        function () {
-            // Show the menu
-            $('.men-tog1').stop(true, true).toggle();
-            $('.men-tog').stop(true, true).toggle();
-            $('.men-tog').hide()
-        },
-        function () {
-            // Optionally: do nothing here if you want the toggle to persist
-        }
-    );
+    $('.men-tog' +insert).show();
 
-    // Optional: ensure the menu toggles back when hovering out
- 
-});
+
+     // ********************************
+    //  $('.men-tog').hide()
+    console.log('men-tog\n');
+
+
+     $('.men-tog').hide()
+    for (i = 1; i <= insert; i++) {
+
+            console.log("men-tog \t"+i+"\n")
+              // $('.men-tog3').hide()
+            // break;
+
+    }
+
+    
+    console.log("****************************************************")
+    for (i = insert+1; i <= target; i++) {
+
+        $('.men-tog' + i).hide()
+
+
+        // console.log("hide value tar"+i)
+    }
+
+}
