@@ -1,132 +1,4 @@
-// $(document).ready(function () {
-//     $("#cource").click(function () {
-//         $(".menbox").toggle();
-//     });
-// });
 
-// $(document).ready(function () {
-//     // Toggle visibility on hover
-//     $('.toggle-button').hover(
-//         function () {
-//             // Show the menu
-//             $('.men-tog').show();
-//             // ************************
-//             loop(1)
-//             // $('.men-tog'+1).hide()
-//             // $('.men-tog2').hide()
-//             // $('.men-tog3').hide()
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-
-
-
-//     // ********************1*********************
-
-//     $('.toggle-button1').hover(
-//         function () {
-
-//             $('.men-tog1').show();
-//             loop_loop(1, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-//     // Optional: ensure the menu toggles back when hovering out
-
-
-//     // ********************2*********************
-
-
-//     $('.toggle-button2').hover(
-//         function () {
-
-//             $('.men-tog2').show();
-//             loop_loop(2, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-
-
-
-//     // ********************3*********************
-
-
-
-
-//     $('.toggle-button3').hover(
-//         function () {
-
-//             $('.men-tog3').show();
-//             loop_loop(3, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-
-//     // ********************3*********************
-
-//     // for(i=4; i<10; i++){
-//     // Toggle visibility on hover
-//     $('.toggle-button4').hover(
-//         function () {
-
-//             $('.men-tog4').show();
-//             loop_loop(4, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-
-//     $('.toggle-button5').hover(
-//         function () {
-
-//             $('.men-tog5').show();
-//             loop_loop(5, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-
-//     $('.toggle-button6').hover(
-//         function () {
-
-//             $('.men-tog6').show();
-//             loop_loop(6, 10)
-
-//         },
-//         function () {
-//             // Optionally: do nothing here if you want the toggle to persist
-//         }
-//     );
-//     // }
-
-
-//     // ******************
-// });
 
 // // ************************************************************
 function loop_loop(insert, target) {
@@ -136,7 +8,7 @@ function loop_loop(insert, target) {
     $('.men-tog').hide()
 
 
-    console.log("log \t"+insert)
+    console.log("log \t" + insert)
     for (i = 1; i < insert; i++) {
 
         // console.log("men-tog \t"+i+"\n")
@@ -161,12 +33,13 @@ function loop_loop(insert, target) {
 
 function loop(insert) {
 
-    for (i = insert; i <= 10; i++) {
-        $('.men-tog'+i).hide()
+    for (i = insert; i <= 13; i++) {
+        $('.men-tog' + i).hide()
     }
 }
 
 
+// **************************************************************************************************
 
 
 $(document).ready(function () {
@@ -177,7 +50,7 @@ $(document).ready(function () {
             $('.men-tog').show();
             // ************************
             loop(1)
-            
+
         },
         function () {
             // Optionally: do nothing here if you want the toggle to persist
@@ -191,20 +64,170 @@ $(document).ready(function () {
             // Show the menu
             $('.men-tog1').show();
             // ************************
-           loop_loop(1,10)
+            loop_loop(1, 14)
         },
         function () {
             // Optionally: do nothing here if you want the toggle to persist
         }
     );
 
-      // ************************
-      $('.toggle-button2').hover(
+    // ************************
+    $('.toggle-button2').hover(
         function () {
             // Show the menu
             $('.men-tog2').show();
             // ************************
-           loop_loop(2,10)
+            loop_loop(2, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // ************************
+    $('.toggle-button3').hover(
+        function () {
+            // Show the menu
+            $('.men-tog3').show();
+            // ************************
+            loop_loop(3, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // ************************
+    $('.toggle-button4').hover(
+        function () {
+            // Show the menu
+            $('.men-tog4').show();
+            // ************************
+            loop_loop(4, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // ************************
+    $('.toggle-button5').hover(
+        function () {
+            // Show the menu
+            $('.men-tog5').show();
+            // ************************
+            loop_loop(5, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // ************************
+    $('.toggle-button6').hover(
+        function () {
+            // Show the menu
+            $('.men-tog6').show();
+            // ************************
+            loop_loop(6, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+    // ************************
+    $('.toggle-button7').hover(
+        function () {
+            // Show the menu
+            $('.men-tog7').show();
+            // ************************
+            loop_loop(7, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+    // ************************
+    $('.toggle-button8').hover(
+        function () {
+            // Show the menu
+            $('.men-tog8').show();
+            // ************************
+            loop_loop(8, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+    // ************************
+    $('.toggle-button9').hover(
+        function () {
+            // Show the menu
+            $('.men-tog9').show();
+            // ************************
+            loop_loop(9, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+    // ************************
+    $('.toggle-button10').hover(
+        function () {
+            // Show the menu
+            $('.men-tog10').show();
+            // ************************
+            loop_loop(10, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+
+    // ************************
+    $('.toggle-button11').hover(
+        function () {
+            // Show the menu
+            $('.men-tog11').show();
+            // ************************
+            loop_loop(11, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+    // ************************
+    $('.toggle-button12').hover(
+        function () {
+            // Show the menu
+            $('.men-tog12').show();
+            // ************************
+            loop_loop(12, 13)
+        },
+        function () {
+            // Optionally: do nothing here if you want the toggle to persist
+        }
+    );
+
+
+    // ************************
+    $('.toggle-button'+13).hover(
+        function () {
+            // Show the menu
+            $('.men-tog13').show();
+            // ************************
+            loop_loop(13, 13)
         },
         function () {
             // Optionally: do nothing here if you want the toggle to persist
@@ -212,3 +235,4 @@ $(document).ready(function () {
     );
 
 });
+

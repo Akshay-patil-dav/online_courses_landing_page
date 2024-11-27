@@ -5,6 +5,9 @@
 @import url("./Tab.css");
 
 
+.none{
+  display: none;
+}
 html {
   cursor: url("https://w7.pngwing.com/pngs/516/129/png-transparent-computer-mouse-computer-icons-pointer-cursor-computer-mouse-blue-angle-electronics.png"), auto;
   cursor: url("https://w7.pngwing.com/pngs/516/129/png-transparent-computer-mouse-computer-icons-pointer-cursor-computer-mouse-blue-angle-electronics.png"), auto;
