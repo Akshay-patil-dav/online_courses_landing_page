@@ -1,0 +1,695 @@
+.hed-con {
+    display: flex;
+
+    /* height: 20cm; */
+}
+
+.left {
+    /* background-color: red; */
+    width: 100%;
+    height: 18cm;
+    /* background-color: #e8ccb1; */
+}
+
+
+.right {
+    /* background-color: rgb(124, 17, 17); */
+    width: 100%;
+    height: 18cm;
+    /* background-color: #e8ccb1; */
+}
+
+.right img {
+    width: 120%;
+    position: relative;
+    bottom: 80px;
+    right: 80px;
+}
+
+.hedtext {
+    margin: 130px;
+}
+
+.hedtext h1 {
+    font-family: Arial black;
+    font-size: 1.2cm;
+    /* background-color: red; */
+    width: 12cm;
+}
+
+.hedtext h1 b {
+    color: rgb(255, 96, 22);
+}
+
+.hedtext h6 {
+    font-size: 0.5cm;
+    color: rgb(103, 103, 103);
+    width: 12cm;
+}
+
+.hedtext b svg {
+    color: rgb(101, 183, 242);
+}
+
+a {
+    text-decoration: none;
+}
+
+.boxtexele {
+    position: relative;
+    left: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /* background-color: #2196F3; */
+    row-gap: 30px;
+    height: auto;
+    /* column-gap: 50px; */
+    /* padding: 10px;     */
+}
+
+.boxtexele .blo {
+    background-color: rgb(255, 251, 251);
+    width: 5cm;
+    height: 4cm;
+    cursor: pointer;
+}
+
+.blockbol {
+    margin: 0px 40px;
+    cursor: pointer;
+}
+
+.bloo {
+    background-color: rgb(255, 167, 167);
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 100px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.blockbol:hover {
+    .bloo {
+        background-color: rgb(255, 76, 44);
+    }
+
+    .bloo svg {
+        margin: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    cursor: pointer;
+}
+
+.blockbol b {
+    position: relative;
+    left: 15px;
+}
+
+.bloo svg {
+    margin: 15px;
+    color: rgb(255, 76, 44);
+}
+
+
+
+
+.gri {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+.gri .card {
+    background-color: rgb(255, 255, 255);
+    border: 0px solid;
+    position: relative;
+    left: 20px;
+}
+
+.gri .card img {
+    /* width: 50px; */
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+}
+
+.gri .card a {
+    border: 2px solid;
+    border-color: #fd5631;
+    background-color: white;
+    color: #fd5631;
+    font-family: Arial black;
+}
+
+.gri .card a:hover {
+    background-color: #fd5631;
+    color: white;
+}
+
+.offsec {
+    display: flex;
+}
+
+.right-sec {
+    /* background-color: red;/ */
+    width: 100%;
+}
+
+.left-sec {
+    /* background-color: rgb(76, 32, 32); */
+    width: 100%;
+    text-align: right;
+}
+
+.left-sec a {
+    color: black;
+}
+
+.left-sec a:hover {
+    color: #fd5631;
+}
+
+.texthed {
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.tex-img {
+    width: 100%;
+}
+
+.tex-tex {
+    width: 100%;
+}
+
+.tt {
+    position: relative;
+    top: 150px;
+}
+
+.imgtex {
+    width: 100%;
+}
+
+.butcon {
+    padding: 10px;
+    border-color: #fd5631;
+    color: #fd5631;
+    font-family: Arial black;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 20px;
+}
+
+.butcon:hover {
+    background-color: #fd5631;
+    color: white;
+}
+
+.imgtem {
+    display: flex;
+    gap: 40px;
+    width: 50%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    position: relative;
+}
+
+.left-im {
+    /* background-color: red; */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.center-im {
+    /* background-color: rgb(139, 29, 29); */
+    width: 100%;
+    border-radius: 20px;
+}
+
+.rig-im {
+    /* background-color: rgb(46, 9, 9); */
+    width: 100%;
+    height: 5cm;
+
+}
+
+.texboxinfo {
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.4px);
+    -webkit-backdrop-filter: blur(15.4px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    width: 15cm;
+    height: 10cm;
+    margin: 30px;
+    position: relative;
+    right: 140px;
+    border-radius: 20px;
+}
+
+.imghh {
+
+    display: flex;
+    gap: 50px;
+    height: 12cm;
+}
+
+.texboxinfo-hed {
+    /* background-color: red; */
+    width: 70%;
+}
+
+.texboxinfo-box {
+    margin: 40px;
+}
+
+.bote-1 {
+    /* background-color: red; */
+    width: 100%;
+    /* height: 2cm; */
+}
+
+.bote-2 {
+    /* background-color: rgb(68, 12, 12); */
+    width: 100%;
+    /* height: 2cm; */
+    text-align: right;
+}
+
+.sta svg {
+    color: rgb(255, 204, 0);
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .navbar-toggler:hover {
+        border: 0px solid;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        top: 0px;
+        right: 200px;
+        width: 10px;
+    }
+
+
+    #bu {
+        /* z-index: 5; */
+    }
+
+    #body {
+        background-color: gray;
+        opacity: 0.5;
+        width: 100%;
+        position: fixed;
+        height: 100cm;
+        z-index: 2;
+        display: none;
+    }
+
+
+
+    #no {
+        margin: 10px 275px;
+
+    }
+
+
+    #collapse {
+        /* background-color: red; */
+        /* margin: 0px 0px; */
+        display: none;
+
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        right: 150px;
+        bottom: 10px;
+        height: 25cm;
+        width: 80%;
+        /* padding: 5px; */
+        animation-duration: 0.5s;
+        animation-name: slide-in;
+    }
+
+    @keyframes slide-in {
+        from {
+            translate: -150vw 0;
+            scale: 200% 1;
+        }
+
+        to {
+            translate: 0vw 0;
+            scale: 100% 1;
+        }
+    }
+
+
+    .addcource {
+        font-size: 0.3cm;
+        position: relative;
+        left: 260px;
+    }
+
+
+    .navbar-nav {
+        margin: 100px 180px;
+    }
+
+
+
+
+    .hed-con {
+        display: flex;
+
+        /* height: 20cm; */
+    }
+
+    .left {
+        /* background-color: red; */
+        width: 100%;
+        height: 18cm;
+        /* background-color: #e8ccb1; */
+    }
+
+    .gri .card img {
+        /* width: 50px; */
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        position: relative;
+    }
+
+    .right {
+        /* background-color: rgb(124, 17, 17); */
+        width: 100%;
+        display: none;
+        height: 18cm;
+        /* background-color: #e8ccb1; */
+    }
+
+    .right img {
+        width: 120%;
+        position: relative;
+        bottom: 80px;
+        display: none;
+    }
+
+    .hedtext {
+        margin: 10px;
+        position: relative;
+        top: 50px;
+    }
+
+    .hedtext h1 {
+        font-family: Arial black;
+        font-size: 1cm;
+        /* background-color: red; */
+        width: 8cm;
+    }
+
+    .hedtext h1 b {
+        color: rgb(255, 96, 22);
+    }
+
+    .hedtext h6 {
+        font-size: 0.4cm;
+        color: rgb(103, 103, 103);
+        width: 8cm;
+    }
+
+    .DemoVideos {
+        display: none;
+    }
+
+    .hedtext b svg {
+        color: rgb(101, 183, 242);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .imgtex {
+        width: 80%;
+    }
+
+    .boxtexele {
+        position: relative;
+        /* left: 0px; */
+        display: grid;
+        grid-template-columns: auto auto;
+        /* background-color: #2196F3; */
+        row-gap: 30px;
+        width: 98%;
+        height: auto;
+        /* column-gap: 50px; */
+        /* padding: 10px;     */
+        bottom: 180px;
+    }
+
+    .boxtexele .blo {
+        background-color: rgb(255, 251, 251);
+        width: 4cm;
+        height: 4cm;
+        cursor: pointer;
+    }
+
+    .blockbol {
+        margin: 0px 20px;
+        cursor: pointer;
+    }
+
+    .bloo {
+        background-color: rgb(255, 167, 167);
+        height: 1.5cm;
+        width: 1.5cm;
+        border-radius: 100px;
+        margin: 0px 10px;
+        cursor: pointer;
+    }
+
+    .blockbol:hover {
+        .bloo {
+            background-color: rgb(255, 76, 44);
+        }
+
+        .bloo svg {
+            margin: 15px;
+            color: rgb(255, 255, 255);
+        }
+
+        cursor: pointer;
+    }
+
+    .blockbol b {
+        position: relative;
+        left: 15px;
+    }
+
+    .bloo svg {
+        margin: 15px;
+        color: rgb(255, 76, 44);
+    }
+
+
+
+    .gri {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        right: 80px;
+        bottom: 150px;
+        gap: 50px;
+
+    }
+
+    .gri .card {
+        background-color: rgb(255, 255, 255);
+        border: 0px solid;
+        position: relative;
+        left: 0px;
+
+    }
+
+    .gri .card img {
+        /* width: 50px; */
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        position: relative;
+    }
+
+    .gri .card a {
+        border: 2px solid;
+        border-color: #fd5631;
+        background-color: white;
+        color: #fd5631;
+        font-family: Arial black;
+    }
+
+    .gri .card a:hover {
+        background-color: #fd5631;
+        color: white;
+    }
+
+    .hsh {
+        position: relative;
+        right: 100px;
+    }
+
+    .cou {
+        position: relative;
+        left: 50px;
+        width: 1px;
+        top: 10px;
+    }
+
+    .texthed {
+        display: unset;
+    }
+
+    .tt {
+        margin: 50px;
+
+    }
+
+    .tex-tex {
+        position: relative;
+        bottom: 200px;
+    }
+
+    .offsec {
+        width: 80%;
+    }
+
+
+    /* **************** */
+    .imgtem {
+        display: block;
+        /* gap: 80px; */
+        width: 50%;
+        object-fit: contain;
+        aspect-ratio: 3/2;
+        position: relative;
+    }
+
+    .left-im {
+        /* background-color: red; */
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .center-im {
+        position: relative;
+        top: 5px;
+        /* background-color: rgb(139, 29, 29); */
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .rig-im {
+        /* background-color: rgb(46, 9, 9); */
+        width: 100%;
+        height: 5cm;
+    }
+
+    .texboxinfo {
+        width: 6cm;
+        height: 6.5cm;
+        margin: 30px;
+        position: relative;
+        right: 0px;
+        border-radius: 20px;
+        bottom: 350px;
+        left: 80px;
+    }
+
+    .agents {
+        text-align: center;
+        width: 100%;
+        font-family: Arial black;
+    }
+
+    .imghh {
+
+        display: flex;
+        gap: 50px;
+        height: 12cm;
+    }
+
+    .texboxinfo-hed {
+        /* background-color: red; */
+        width: 70%;
+        font-size: 12px;
+    }
+
+    .texboxinfo-box {
+        margin: 10px;
+    }
+
+    .texboxinfo-box p {
+        font-size: 10px;
+        width: 200px;
+        color: rgb(118, 118, 118);
+    }
+
+    .bote-1 {
+        /* background-color: red; */
+        width: 40%;
+        /* height: 2cm; */
+    }
+
+    .bote-1 h5 {
+        font-size: 11px;
+
+    }
+
+    .bote-2 {
+        /* background-color: rgb(68, 12, 12); */
+        width: 70%;
+        /* height: 2cm; */
+        text-align: right;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .sta p {
+        position: relative;
+        right: 60px;
+        display: none;
+    }
+
+
+    .sta svg {
+        color: rgb(255, 204, 0);
+    }
+
+    .box-age {
+        position: relative;
+        bottom: 70px;
+    }
+
+
+    footer {
+        margin: -300px 0px;
+    }
+
+    .sing {
+        margin: 0px 170px;
+    }
+
+    .hedmenres {
+        background-color: rgb(255, 96, 22);
+        height: 2cm;
+        position: relative;
+        bottom: 330px;
+        border-radius: 0px 0px 0px 50px;
+    }
+}

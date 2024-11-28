@@ -1,0 +1,156 @@
+@import url("./Buttons.css");
+@import url("./Home.css");
+@import url("./footer.css");
+@import url("./Cource.css");
+@import url("./Tab.css");
+
+
+.none{
+  display: none;
+}
+html {
+  cursor: url("https://w7.pngwing.com/pngs/516/129/png-transparent-computer-mouse-computer-icons-pointer-cursor-computer-mouse-blue-angle-electronics.png"), auto;
+  cursor: url("https://w7.pngwing.com/pngs/516/129/png-transparent-computer-mouse-computer-icons-pointer-cursor-computer-mouse-blue-angle-electronics.png"), auto;
+}
+.cou {
+  background-color: transparent;
+  height: 80px;
+}
+
+.navbar-toggler-but {
+  display: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+      box-shadow: 0px 0px 5px #888888;
+      z-index: 2;
+
+  /* height: 1.8cm; */
+}
+
+.navbar-brand img {
+  width: 100px;
+  object-fit: contain;
+  aspect-ratio: 3/2;
+  position: relative;
+}
+
+.navbar {
+  z-index: 2;
+}
+
+.hrmen {
+  display: none;
+}
+
+/* *********************** */
+
+.addCources {
+  margin: 37px 0px;
+}
+
+.s1 {
+  margin: -155px 240px;
+}
+
+.d1 {
+  width: 7cm;
+}
+
+.d1 li {
+  margin: 10px;
+}
+
+.d1 li b {
+  font-family: Arial black;
+  color: rgb(100, 100, 100);
+  margin: 10px;
+}
+
+.d1 hr {
+  background-color: rgb(0, 0, 0);
+  height: 2px;
+}
+
+
+.subm1 {
+  margin: -115px 240px;
+}
+
+.subm2 {
+  margin: -155px 240px;
+}
+
+.subm3 {
+  margin: -195px 240px;
+}
+
+.subm4 {
+  margin: -235px 240px;
+}
+
+.subm5 {
+  margin: -275px 240px;
+}
+
+.bb2 {
+  border-radius: 10px;
+}
+
+.plpc {
+  width: 6cm;
+}
+
+.plpc li {
+  margin: 15px;
+  text-align: center;
+}
+
+.butvw {
+  background-color: transparent;
+  border: 1px solid;
+  color: rgb(255, 96, 22);
+}
+
+.butvw:hover {
+  background-color: transparent;
+  border: 5px solid;
+  color: white;
+  background-color: rgb(255, 96, 22);
+  border: 1px solid;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .navbar {
+    position: fixed;
+    /* width: 100%; */
+    background-color: rgb(255, 255, 255);
+    /* height: 1.8cm; */
+    height: 2cm;
+  }
+
+
+
+  .navbar-toggler-but {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    border: 0px solid;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    display: block;
+  }
+
+  .hrmen {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    width: 180px;
+
+  }
+}
