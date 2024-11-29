@@ -3,6 +3,7 @@
 @import url("./footer.css");
 @import url("./Cource.css");
 @import url("./Tab.css");
+@import url("./respon.css");
 
 
 .none{
@@ -152,5 +153,9 @@ html {
     border-color: black;
     width: 180px;
 
+  }
+
+  .serchbar{
+    display: none;
   }
 }

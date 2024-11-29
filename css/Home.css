@@ -360,8 +360,22 @@ a {
     }
 
 
+    #cource{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 0px -45px;
+
+    }
+    .bi-ui-checks-grid{
+        position: relative;
+        top: 5px;
+        right: 10px;
+    }
     .navbar-nav {
         margin: 100px 180px;
+        display: grid;
+        grid-template-columns: auto;
+        height: 8cm;
     }
 
 
@@ -689,7 +703,8 @@ a {
         background-color: rgb(255, 96, 22);
         height: 2cm;
         position: relative;
-        bottom: 330px;
+        bottom: 445px;
+        /* top: 0px; */
         border-radius: 0px 0px 0px 50px;
     }
 }
