@@ -1,8 +1,9 @@
 /* ************************************** */
 
-body{
+body {
     /* background-color: red; */
 }
+
 /* Dropdown Styles */
 .menbox {
     position: fixed;
@@ -13,7 +14,7 @@ body{
     height: 15cm;
     margin: -15px 0px;
     font-size: 12.8px;
-    
+
 
 }
 
@@ -27,13 +28,13 @@ body{
 
 
     /* box-shadow: 0px 0px 5px #888888; */
-    
+
 }
 
 .dropdown:hover .menbox {
     display: block;
     box-shadow: 0px 200px 200px #888888;
-    
+
     display: flex;
 }
 
@@ -78,7 +79,7 @@ body{
 }
 
 
-.srolmen{
+.srolmen {
     /* background-color: red; */
     width: 20%;
     overflow: auto;
@@ -92,29 +93,34 @@ body{
     /* padding: 15px; */
     font-size: 15px;
 }
-.srolmen ul li{
-       /* background-color: red; */
+
+.srolmen ul li {
+    /* background-color: red; */
     display: flex;
     padding: 15px;
     width: 250px;
-    
+
 }
 
-.srolmen ul li b{
+
+.srolmen ul li b {
     cursor: pointer;
 }
-.srolmen ul li b:hover{
+
+.srolmen ul li b:hover {
     color: rgb(255, 96, 22);
 }
-.skill{
+
+.skill {
     font-size: 0.6cm;
     /* font-family: Arial black; */
     text-align: center;
-    color:  rgb(255, 96, 22);
+    color: rgb(255, 96, 22);
 }
-.skillhr{
+
+.skillhr {
     background-color: rgb(255, 96, 22);
-    color:rgb(255, 96, 22) ;
+    color: rgb(255, 96, 22);
     height: 2px;
     width: 100%;
     /* margin: 50px 0px; */
@@ -126,7 +132,7 @@ body{
 
 
 /* ********************** */
-.rightmen{
+.rightmen {
     /* background-color: green; */
     width: 100%;
 }
@@ -136,77 +142,82 @@ body{
 ::-webkit-scrollbar {
     width: 6px;
     height: none;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
     border-radius: 10px;
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background:  rgb(255, 96, 22); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 96, 22);
     border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgb(255, 96, 22); 
-  }
+}
 
-  .men-tog{
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 96, 22);
+}
+
+.men-tog {
     display: block;
-  }
-  .men-tog1{
+}
+
+.men-tog1 {
     display: block;
-  }
+}
 
 
 
 
-.tex1-tab1{
+.tex1-tab1 {
     /* display: flex; */
     display: grid;
     grid-template-columns: auto auto auto;
 }
-.tex1-left{
+
+.tex1-left {
     width: 100%;
-     height: 15cm;
+    height: 15cm;
     /* background-color: red; */
 }
-.tex1-center{
+
+.tex1-center {
     width: 100%;
-     height: 15cm;
+    height: 15cm;
     /* background-color: rgb(60, 14, 14); */
 }
-.tex1-right{
+
+.tex1-right {
     width: 100%;
-     height: 15cm;
+    height: 15cm;
     /* background-color: rgb(0, 255, 38); */
 }
 
 
 
 
-.exhtex{
+.exhtex {
     position: relative;
     top: 30px;
     left: 50px;
 }
 
-.exhtex h4{
+.exhtex h4 {
     font-size: 0.6cm;
-    color:  rgb(255, 96, 22);
+    color: rgb(255, 96, 22);
 }
-.exhtex p{
+
+.exhtex p {
     font-size: 0.3cm;
 }
 
 
 
 
-.logotexbio img{
+.logotexbio img {
     width: 40px;
     height: 50px;
     object-fit: contain;
@@ -216,26 +227,28 @@ body{
     border-radius: 100%;
 }
 
-.texbiohe{
+.texbiohe {
     display: flex;
 
 }
-.texbiohe:hover{
-    color:  rgb(255, 96, 22);
+
+.texbiohe:hover {
+    color: rgb(255, 96, 22);
 }
 
-.biotex{
+.biotex {
     /* background-color: red; */
     width: 490px;
 }
-.biotex p{
+
+.biotex p {
     /* background-color: red; */
     width: 600px;
     font-size: 10px;
 }
 
-.card-text-bios-dem{
-    background-color:  rgb(255, 96, 22);
+.card-text-bios-dem {
+    background-color: rgb(255, 96, 22);
     width: 15cm;
     height: 5cm;
     border-radius: 20px;
@@ -244,25 +257,82 @@ body{
 }
 
 
-.card-text-bios-dem .bu{
+.card-text-bios-dem .bu {
     position: relative;
     top: 30px;
     left: 30px;
 }
-.bu a{
+
+.bu a {
     background-color: white;
-    color:  rgb(255, 96, 22);
+    color: rgb(255, 96, 22);
     padding: 10px;
     border-radius: 5px;
 }
 
-.bu a:hover{
+.bu a:hover {
     border: 1px solid;
     border-color: white;
     background-color: transparent;
     color: white;
 }
 
-.bwi{
+.bwi {
     width: 8cm;
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* Dropdown Styles */
+.menbox {
+    position: fixed;
+    left: 0;
+
+    background-color: rgb(255, 255, 255);
+    width: 54%;
+    height: 15cm;
+    margin: -15px 0px;
+    /* font-size: 0; */
+
+
+}
+
+.srolmen ul {
+    margin: 10px 0px;
+    /* background-color: red; */
+    /* display: flex; */
+    /* padding: 15px; */
+    font-size: 10px;
+}
+
+.nav-item {
+    height: 35px;
+}
+
+.srolmen{
+    width: 10cm;
+    overflow-x: hidden;
+    height: 50cm;
+}
+
+
+
+.menbox {
+    display: none;
+
+
+    /* box-shadow: 0px 0px 5px #888888; */
+
+}
+
+.rightmen{
+    display: none;
+}
+
+.dropdown:hover .menbox {
+    display: block;
+    box-shadow: 0px 200px 200px transparent;
+
+    display: flex;
+}
 }

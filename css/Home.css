@@ -304,7 +304,7 @@ a {
 
     #bu {
         /* z-index: 5; */
-        
+
     }
 
     #body {
@@ -361,17 +361,19 @@ a {
     }
 
 
-    #cource{
+    #cource {
         display: grid;
         grid-template-columns: auto auto;
         margin: 0px -40px;
 
     }
-    .bi-ui-checks-grid{
+
+    .bi-ui-checks-grid {
         position: relative;
         top: 5px;
         right: 10px;
     }
+
     .navbar-nav {
         margin: 100px 180px;
         display: grid;
@@ -380,7 +382,7 @@ a {
         position: relative;
         top: 10px;
         left: 50px;
-        
+
     }
 
 
@@ -708,8 +710,18 @@ a {
         background-color: rgb(255, 96, 22);
         height: 1.5cm;
         position: relative;
-        bottom: 300px;
+        bottom: 332px;
         /* top: 0px; */
         border-radius: 0px 30px 0px 50px;
     }
+
+    /* ***************************/ 
+
+/* 
+    .srolmen{
+        
+    }
+    .rightmen{
+        display: none;
+    } */
 }

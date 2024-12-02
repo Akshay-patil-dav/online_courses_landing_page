@@ -8,7 +8,7 @@ function loop_loop(insert, target) {
     $('.men-tog').hide()
 
 
-    console.log("log \t" + insert)
+    // console.log("log \t" + insert)
     for (i = 1; i < insert; i++) {
 
         // console.log("men-tog \t"+i+"\n")
@@ -18,7 +18,7 @@ function loop_loop(insert, target) {
     }
 
 
-    console.log("****************************************************")
+    // console.log("****************************************************")
     for (i = insert + 1; i <= target; i++) {
 
         $('.men-tog' + i).hide()
